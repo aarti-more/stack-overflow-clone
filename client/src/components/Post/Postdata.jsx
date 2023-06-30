@@ -93,7 +93,7 @@ const Postdata = ({ post }) => {
         }
       } 
       
-    })()} 
+    })()}// End of lone block
       
        
          {                          
