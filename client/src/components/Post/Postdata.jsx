@@ -79,6 +79,63 @@ const Postdata = ({ post }) => {
     <div> 
       
   </div>
+    <div>
+    {  (()=>{
+      if(user.result.friend.length===0)
+      {
+        
+        if(user.result.friend.Propotype===undefined)
+        {
+          
+        return(
+          <button type="button"  onClick={handleAddfriend}>Add</button>
+          
+        )
+        }
+      } 
+      
+    })()}// End of lone block
+      
+       
+         {                          
+          user.result.friend.map((fnd)=>{
+
+         {
+          return(
+              (() => {
+            
+              if(user.result._id===post.userId) {
+             return (
+                <div></div>
+             )
+           } 
+           
+           else if(fnd.friendId===post.userId) {
+            
+              return(
+                    <button type="button" onClick={()=>deleteFriend(fnd.friendId)}>Remove</button>
+                    )
+                    
+             }
+            
+            
+              else{
+                
+                return(
+               <button type="button" onClick={handleAddfriend}>Add</button>
+                  )
+                 }
+              
+              
+              })())
+          
+        }
+        
+          })
+           
+        
+    }
+    </div>
       
     </div>
 </div>
