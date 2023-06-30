@@ -1,29 +1,9 @@
 import './postdata.css'
-import { useSelector,useDispatch} from 'react-redux'
-import { Link, useParams } from 'react-router-dom'
+import { Link } from 'react-router-dom'
 import Avatar from '../Avatar/Avatar'
 
 
 const Postdata = ({ post }) => {
-  
-  const {id}=useParams();
-  const dispatch=useDispatch()
-  var ext = post.myFile[0].split(';')[0].split('/')[0]
-
-  const user=useSelector(state=>state.currentUserReducer);
-   const handleAddfriend=()=>{
-    
-           (dispatch(PostFriend({id:user.result._id,friendAdded:post.userPosted,friendId:post.userId})))   
-           alert("friend is added successfully. To see added friend in friend list LogOut and then LogIn again ");
-         
-    }  
-      
-    
-    
-    const deleteFriend=(friendId)=>{
-
-    dispatch(DeleteFriend(id,{friendId}))
-    }
   
   return (
   
