@@ -4,7 +4,7 @@ import Avatar from '../Avatar/Avatar'
 
 
 const Postdata = ({ post }) => {
-  
+    var ext = post.myFile[0].split(';')[0].split('/')[0]
   return (
   
     <div className='main-container'>
