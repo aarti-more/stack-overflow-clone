@@ -1,5 +1,4 @@
 import mongoose from 'mongoose'
-import { useParams } from 'react-router-dom';
 import post from '../models/Postmodel.js'
  
 export const PostData = async(req,res)=>{
