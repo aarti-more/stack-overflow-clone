@@ -1,6 +1,5 @@
 
 import mongoose from 'mongoose'
-import { useParams } from 'react-router-dom';
 import Question from '../models/Question.js'
  
 export const AskQuestion = async(req,res)=>{
