@@ -1,0 +1,128 @@
+.authsection{
+    min-height: 100vh;
+    margin: 0% auto;
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    
+}
+.aboutauth{
+    width:20%;
+    position:absolute;
+    
+    margin-top: 200px;
+padding: 20px;
+    margin-right: 20px;
+} 
+   
+.authcontainer{
+    
+    min-width: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.authcontainer form{
+    background-color:white;
+    padding:20px;
+    border:solid 1px #009dff;
+    width:100%;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 0 10px 25px rgb(0 0 0/ 5%)
+    0 20px 48px rgb(0 0 0 / 5%)
+    0 1px 4px rgb(0 0 0 / 10%);
+}
+.authcontainer form label input{
+    width: 100%;
+    min-height: 20px;
+    margin-right:80px;
+    border:solid 1px #0000003e;
+    font-size: 13px;
+
+}
+
+.authcontainer form label:nth-child(1) h4,
+.authcontainer form label:nth-child(2) h4,
+.authcontainer form label:nth-child(3) h4{
+    margin-bottom:5px;
+    margin-top:10px;   
+    margin-right: 20px;
+
+}
+
+.authcontainer form label:nth-child(4) input{
+    width:15%;
+    margin:13px 0px;
+}
+
+.authbtn{
+    padding:10px 5px;
+    margin-top:10px;
+    background-color: #009dff;
+    border: solid 1px #009dff;
+    width:100%;
+    cursor: pointer;
+    transition: 0.2s;
+    font-size: 13px;
+}
+.authbtn:hover{
+    background-color: #018ce3;
+}
+@media screen and (max-width:992px){
+    .aboutauth{
+    width: 50%;
+    position: relative;
+    margin-top: 0px;
+    padding: 80px;
+    margin-right: 20px;
+    padding-bottom: 0px
+    }
+    .authcontainer form{
+        padding-right: 10px;
+    padding-left: 10px;
+    }
+
+}
+@media screen and (min-width:993px){
+    .authcontainer{
+        margin-left: 120px;
+        margin-top: 40px;
+    }
+    .authbtn{
+        margin-top: 0px;
+        padding-top: 0px;
+    }
+
+}
+
+@media screen and (min-width:200px) and (max-width:507px){
+    .aboutauth{
+   
+        
+            width: 50%;
+            position: relative;
+            margin-top: 0px;
+            
+            margin-right: 20px;
+            padding-bottom: 0px
+            }
+            .authcontainer form{
+                padding-right: 10px;
+            padding-left: 10px;
+            
+    
+    }
+    .authcontainer{
+        margin-left: 200px;
+        /*margin-top: 50px;*/
+        line-height: 15px;
+        margin-right: 20%;
+    }
+
+}

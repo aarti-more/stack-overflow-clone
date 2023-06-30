@@ -1,0 +1,204 @@
+.main-nav{
+    height: 50px;
+    width:100%;
+    margin:0% auto;
+    
+    border-top: solid 3px orange;
+    box-shadow: 0px 1px 5px gray;
+    left:0%;
+    top:0%;
+    position: fixed;
+    z-index: 5;
+    background-color: #f8f9f9;
+    display:flex;
+    justify-content:space-evenly;
+    align-items: center;
+
+}
+
+.Navbar{
+    height:100%;
+    min-width:85%;
+    display:flex;
+    justify-content:center;
+    align-items:space-between;
+    /*width: 100%;
+    font-size: 10px;
+    margin-left: 0%;
+
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;*/
+}
+.nav-item{
+    margin:0px 3px;
+    font-size:small;
+    font-weight:500;
+    text-decoration:none;
+    color:rgb(69 69 69);
+    transition:0.2s;
+
+/*color:rgb(69,69,69);
+text-decoration: none;
+transition:0.2s;*/
+
+}
+ .nav-btn{
+    cursor:pointer;
+border-radius:20px;
+padding:10px 20px;
+    /*cursor: pointer;
+    border-radius: 20px;
+    padding: 10px 20px;*/
+
+}
+.nav-item:hover{
+    background-color: rgb(155, 151, 151);
+}
+.stacklogo{
+    
+    padding:5px 25px;
+
+}
+.Navbar form{
+    flex-grow:1;
+    padding:0px 12px;
+    position:relative;
+    /*flex-grow: 1;
+    padding: 20px 10px 20px 10px;
+    margin-top:20px;
+    position: relative;*/
+}
+
+
+.Navbar form input{
+
+    margin:0px;
+    width:90%;
+    padding:8px 10px 8px 32px;
+    border:solid 1px #0000003e;
+    border-radius:3px;
+    font-size:13px;
+
+    /*width: 30%;
+    height:20px;
+    padding: 0px 10px 0px 0px;
+    border:solid 1px black;
+    position:relative;
+    margin-left: 50%;
+    margin-bottom: 10px;
+    padding:7px 14px;
+    flex-grow: 1;*/
+}
+
+.Navbar form .searchlogo{
+
+    position:absolute;
+    left:25px;
+    top:8px;
+
+    /*margin:0px 10px 0px 50px;*/
+    /*flex-grow: 1;
+    position:absolute;
+    right:47%;
+    bottom:40px;*/
+}
+.nav-link{
+    border:solid 1px blue;
+    border-radius: 3px;
+    background-color: #e7f8fe;
+    padding:7px 14px;
+    cursor: pointer;
+}
+
+
+@media screen and (min-width: 280px) {  
+    .Navbar{
+        
+        width:100%;
+        
+    }   
+    
+    .Navbar form input{
+        margin-left:0px;
+        padding-left: 10px;
+    }
+    .Navbar form .searchlogo{
+        left:13px;
+    }
+}     
+
+@media screen and (max-width: 576px) {  
+    .Navbar{
+        
+        padding-right: 50px;
+        width:100%;
+    }   
+    .Navbar form input{
+        margin-left:0px;
+        padding-left: 10px;
+    }
+    .Navbar form .searchlogo{
+        left:13px;
+    }
+}     
+@media screen and (max-width:768px) {
+    .Navbar{
+        width:100%;
+    }     
+    .Navbar form input{
+        margin-left:0px;
+        padding-left: 10px;
+    }
+    .Navbar form .searchlogo{
+        left:13px;
+    }
+}         
+@media screen and (max-width: 992px) {  
+    
+    .Navbar{
+        width:100%;
+    }     
+    .Navbar form input{
+        margin-left:0px;
+        padding-left: 10px;
+    }
+    .Navbar form .searchlogo{
+        left:13px;
+    }
+}     
+
+    /* .open-menu,.close-menu{
+    position:absolute;
+    cursor: pointer;
+    font-size: 1.5rem;
+        color:white;
+    }
+    .open-menu{
+        top:50%;
+        right:20px;
+        transform: translateY(-50%);
+    }
+    .close-menu{
+        top:20px;
+        right:20px;
+    }
+#check{
+    display:none;
+
+    } */
+
+    /* @media screen and (max-width:610px){
+        .open-menu,.close-menu{
+       display: block;
+        }
+        
+    
+        }
+     */
+
+
+
+
+
+

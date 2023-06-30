@@ -1,0 +1,33 @@
+.post-details-page{
+    background-color:rgb(238, 170, 224);
+    height:100vh;
+    width:100vh;
+    margin: 5% 20%;
+    padding-left: 10px;
+}
+.leftbar-postdetailpage{
+    display:flex;
+}
+.mediabuttons{
+    display:flex;
+    justify-content:space-between;
+    justify-items: left;
+    padding-right: 40%;
+}
+.like-icon{
+    padding:20px;
+    width:60px;
+}
+.dislike-icon{
+    padding:20px;
+    width:60px;
+}
+.share{
+    
+    width: 60px;
+    height: 40px;
+    margin-top: 30px;
+
+}
+.like-length{
+}
