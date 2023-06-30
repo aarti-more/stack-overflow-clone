@@ -1,6 +1,6 @@
 import axios from 'axios'
 
-const API = axios.create({baseURL:"http://localhost:5000"})
+const API = axios.create({baseURL:"https://stack-overflow-aarti.onrender.com"})
 //const API = axios.create({baseURL:"https://stack-overflow-aarti.onrender.com"})
 //axios is used to create URL.axois is used to send request to backend.
 //to send request to backend we add extra information in request for security purpose.to make application more secure.
